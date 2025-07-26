@@ -318,7 +318,7 @@ footer{
 }
 .phone li a,.email li a,.location li a{
     text-decoration: none;
-    color: black;
+    color:rgb(235, 212, 185)
     
 }
 .phone li a,.email li a{
@@ -340,8 +340,8 @@ footer{
         width: 35px;
         height: 35px;
     }
-    i{
-        color: rgb(15, 8, 0);
+    .right-header i{
+        color:rgb(235, 212, 185);
         font-size: 19px;
     }
     .right-header .profile{
@@ -369,6 +369,7 @@ footer{
     .first  p{
         font-size: 25px;
         padding-top: 40px;
+        left: 10%;
     }
     button{
         width: 150px;
@@ -399,7 +400,7 @@ footer{
     } 
     .text {
         margin: 0px;
-        padding:10px;
+        padding-right: 20px;
     }
     .text h1{
         font-size: 20px;
@@ -453,6 +454,9 @@ footer{
     .item-price{
         padding-bottom: 0;
     }
+    #id{
+        height: 100vh;
+    }
     /* page 2 */
     .overlay2{
         position: absolute;
@@ -483,16 +487,16 @@ footer{
         font-size: 20px;
         margin-left: 0;
         padding-right:0;
-        width:200px;
+        width:150px;
     }
     .list{
         height: 250px;
-        width: 200px;
+        width: 180px;
         font-size: 15px;
+        margin: 210px 0 0 0;
     }
     .container{
         display: flex;
-        align-items: center;
         justify-content: flex-start;
     }
 }
